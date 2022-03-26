@@ -57,9 +57,9 @@ for painter_link in painter_links[0:39]:
         active = bs.find('span',string = 'Years active').parent.find_next_sibling('td').get_text(separator =' ')
 
     except: 
-        #active = bs.find('class',string = 'Years&nbsp;active').find_next_sibling('td').text.get_text(separator = ' ')
+        
         active = 0 
-    #except 2: 
+     
          
 
     band = {'name':name, 'Years of active' :active}     
