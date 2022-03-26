@@ -7,7 +7,7 @@ from urllib import request
 from bs4 import BeautifulSoup as BS
 import re
 import pandas as pd
-#musicians_q_links = []
+
 # Look at the page and the code
 url = 'https://en.wikipedia.org/wiki/Lists_of_musicians' 
 html = request.urlopen(url)
